@@ -1,6 +1,6 @@
 # Kenya Economy Analysis App
 
-The **Kenya Economy Analysis App** is a React-based web application designed to provide a comprehensive visualization of Kenya's economic indicators. The app fetches real-time and historical data from various sources and presents it in an interactive and user-friendly interface. It allows users to explore trends, compare metrics, and gain insights into Kenya's economic performance.
+The **Kenya Economy Analysis App** is a React-based web application designed to provide a simple visualization of Kenya's economic indicators. The app is itended to fetches real-time and historical data from various sources and presents it in an interactive and user-friendly interface (to be implemented later). It allows users to explore trends, compare metrics, and gain insights into Kenya's economic performance.
 
 ## Features
 
@@ -11,25 +11,6 @@ The **Kenya Economy Analysis App** is a React-based web application designed to 
 - **Inflation Rate:** View the inflation trends and their impact on purchasing power.
 - **Unemployment Rate:** Examine the unemployment rate trends in Kenya.
 
-## Key Functionalities
-
-1. **Interactive Charts:**
-   - Line, Area, and Bar charts for visualizing data.
-   - Tooltips for detailed data points.
-   - Legends for easy identification of metrics.
-
-2. **Data Controls:**
-   - Filter data by specific years or date ranges.
-   - Toggle between different chart types (Line, Area, Bar).
-
-3. **Real-Time Data:**
-   - Fetches data from live APIs for up-to-date economic insights.
-
-4. **Responsive Design:**
-   - Optimized for both desktop and mobile devices.
-
-5. **Skeleton Loading States:**
-   - Displays loading placeholders while data is being fetched.
 
 ## Technologies Used
 
@@ -39,6 +20,25 @@ The **Kenya Economy Analysis App** is a React-based web application designed to 
 - **Framer Motion:** For smooth animations and transitions.
 - **Tailwind CSS:** For styling the application.
 - **Lucide Icons:** For visually appealing icons.
+
+## How the webapp looks
+Below is a screenshot of the shown in first image. The app is designed to be responsive and user-friendly, allowing users to easily navigate through different economic indicators and visualize the data effectively.
+![Kenya Economy Analysis App-1](1.png)
+
+The second image shows other indicators that are not shown in the first image. The app is designed to be responsive and user-friendly, allowing users to easily navigate through different economic indicators and visualize the data effectively.
+![Kenya Economy Analysis App-2](2.png)
+
+## Prerequisites
+- Node.js (v14 or later)
+- npm (Node Package Manager)
+- A modern web browser (Chrome, Firefox, Safari, etc.)
+- Basic knowledge of React and TypeScript is recommended but not required.
+- An internet connection to fetch real-time data from APIs.
+- A code editor (e.g., Visual Studio Code) for development and customization.
+
+
+
+## Getting Started
 
 ## How to Run the Project
 
@@ -68,11 +68,11 @@ The **Kenya Economy Analysis App** is a React-based web application designed to 
    ```
 
 ## Future Enhancements
-
+- implement real-time data fetching from APIs.
 - Add more economic indicators such as foreign exchange rates and poverty levels.
 - Enable exporting charts as images or PDFs.
 - Integrate predictive analytics for forecasting trends.
-- Add multilingual support for a broader audience.
+
 
 ## Contributing
 
